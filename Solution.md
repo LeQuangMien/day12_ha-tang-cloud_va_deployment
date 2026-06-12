@@ -369,3 +369,7 @@ Expected behavior:
 Even if different requests are handled by different agent instances, the conversation history should still be preserved. This works because the session data is stored in Redis, not inside the memory of a single agent container.
 
 If the system used local memory, the conversation could break when the load balancer routes the next request to another instance. With Redis, all instances read and write to the same shared session store.
+
+
+## Part 6: Lab Complete
+URL Link: https://day12ha-tang-cloudvadeployment-production-adef.up.railway.app
